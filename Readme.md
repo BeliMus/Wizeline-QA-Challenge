@@ -50,9 +50,10 @@
   
  $ git clone https://github.com/BeliMus/Wizeline-QA-Challenge.git  
 
-##### Set the Path to Web Drivers  
+##### Set the Path  
   
-- Set your Web Drivers folder into the `Path` Variable  
+- Set your Web Drivers folder into the `Path` Variable
+- Set your Python folder into the `Path` Variable if needed
 
 ##### Set Browsers for Testing  
 

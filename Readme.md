@@ -71,8 +71,8 @@
 ```
 
 ## Usage  
-  
-Run the script `runAutomation.bat` for Windows and `runAutomation.sh` for macOS  
+
+Run the script `runAutomation.bat`
 
 ## Reports
   

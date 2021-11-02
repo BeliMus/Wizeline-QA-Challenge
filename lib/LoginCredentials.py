@@ -1,0 +1,6 @@
+"""Credentials for Login Page"""
+STANDARD_USER = "standard_user"
+STANDARD_PASSWORD = "secret_sauce"
+PROBLEM_USER = "problem_user"
+LOCKED_OUT_USER = "locked_out_user"
+INVALID_USER = "invalid_user"

@@ -9,6 +9,7 @@
 * [Requirements](#requirements)  
 * [Setup](#setup)  
 * [Usage](#usage)  
+* [Reports](#reports)
 * [Contact](#contact)  
   
 ## General Information  
@@ -40,25 +41,40 @@
 - WebDrivers:  
   - [Chrome Driver](https://chromedriver.chromium.org/)  
   - [Gecko Driver](https://github.com/mozilla/geckodriver)  
-  - [IE Driver Server](https://www.selenium.dev/downloads/)  
-  - [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)  
-  - [Opera Driver](https://github.com/operasoftware/operachromiumdriver/releases)  
 - Browser  
   - Version should match your Web Driver's Version  
   
 ## Setup  
-  
-##### Set the Path to Web Drivers  
-  
-- Set your Web Drivers folder into the `Path` Variable  
-  
+   
 ##### Clone the Repo  
   
  $ git clone https://github.com/BeliMus/Wizeline-QA-Challenge.git  
 
+##### Set the Path to Web Drivers  
+  
+- Set your Web Drivers folder into the `Path` Variable  
+
+##### Set Browsers for Testing  
+
+- Open file `./conf/settings.json` and set the drivers to use. 
+- Values must be strings.
+- Values accepted
+  - Chrome
+  - Firefox
+- Example
+```
+{
+  "drivers": ["Chrome", "Firefox"]
+}
+```
+
 ## Usage  
   
 Run the script `runAutomation.bat` for Windows and `runAutomation.sh` for macOS  
+
+## Reports
+  
+Reports will be created in the `log` Folder
 
   
 ## Contact  

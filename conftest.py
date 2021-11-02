@@ -16,12 +16,6 @@ def driver(request, browser):
         web_driver = Chrome()
     elif browser == webdriver.Firefox:
         web_driver = Firefox()
-    elif browser == webdriver.Edge:
-        web_driver = Edge()
-    elif browser == webdriver.Ie:
-        web_driver = Ie()
-    elif browser == webdriver.Opera:
-        web_driver = Opera()
     else:
         raise NameError("Unsupported browser: %s" % browser)
 

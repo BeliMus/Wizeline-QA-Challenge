@@ -10,6 +10,7 @@
 * [Setup](#setup)  
 * [Usage](#usage)  
 * [Reports](#reports)
+* [To-do](#to-do)
 * [Contact](#contact)  
   
 ## General Information  
@@ -78,6 +79,12 @@ Run the script `runAutomation.bat`
   
 Reports will be created in the `log` Folder
 
+## To do
+
+To do:
+- Testing on VM for Mac / Linux
+- Creation of Mac / Linux Script
+- Implementation of Git-secrets for credentials
   
 ## Contact  
 Created by [@BeliMus](https://www.linkedin.com/in/musb890725) - feel free to contact me!

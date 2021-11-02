@@ -38,6 +38,7 @@
   - pytest-html  
   - pytest-parallel  
   - pytest-xdist  
+  - assertpy
 - WebDrivers:  
   - [Chrome Driver](https://chromedriver.chromium.org/)  
   - [Gecko Driver](https://github.com/mozilla/geckodriver)  
